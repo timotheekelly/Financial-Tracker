@@ -3,32 +3,6 @@ import axios from './api/axios'; // If you created an instance
 import './App.css';
 
 function App() {
-  const sampleTransactions = [
-    {
-      description: 'Groceries',
-      amount: '150',
-      type: 'expense',
-      date: '2023-02-10'
-    },
-    {
-      description: 'Salary',
-      amount: '3000',
-      type: 'income',
-      date: '2023-02-05'
-    },
-    {
-      description: 'Electricity Bill',
-      amount: '200',
-      type: 'expense',
-      date: '2023-02-15'
-    },
-    {
-      description: 'Gym Membership',
-      amount: '40',
-      type: 'expense',
-      date: '2023-02-01'
-    }
-  ];  
 
   const [transaction, setTransaction] = useState({
     description: '',
